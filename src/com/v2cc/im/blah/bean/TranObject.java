@@ -1,9 +1,10 @@
-package com.sdust.im.bean;
+package com.v2cc.im.blah.bean;
 
 import java.io.Serializable;
 import java.sql.Date;
 
-import com.sdust.im.global.Result;
+import com.v2cc.im.blah.global.Result;
+
 
 public class TranObject implements Serializable {
 

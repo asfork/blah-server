@@ -3,7 +3,7 @@
  * 时间：2015年5月9日上午10:23:19
  * 作者：修维康
  */
-package com.sdust.im.bean;
+package com.v2cc.im.blah.bean;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -21,6 +21,7 @@ public class User implements Serializable {
 	private int id;
 	private String account;
 	private String userName;
+	private int gender; // 0代表女生 1代表男生
 	private boolean isOnline; // 0 代表离线，1 代表在线
 	private String location;
 	private byte[] photo;
@@ -44,10 +45,10 @@ public class User implements Serializable {
 		this.friendList = friendList;
 	}
 
-	public User(String account, String username, String password,
-			Date birthday, int gender, byte[] photo) {
+	public User(String account, String username, int gender, byte[] photo) {
 		this.account = account;
 		this.userName = username;
+		this.gender = gender;
 		this.photo = photo;
 	}
 
@@ -102,4 +103,12 @@ public class User implements Serializable {
 	public void setLocation(String location) {
 		this.location = location;
 	}
+	
+    public int getGender() {
+        return gender;
+    }
+
+    public void setGender(int gender) {
+        this.gender = gender;
+    }
 }

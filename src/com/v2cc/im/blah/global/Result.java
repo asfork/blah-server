@@ -1,4 +1,4 @@
-package com.sdust.im.global;
+package com.v2cc.im.blah.global;
 
 public enum Result {
 	ACCOUNT_EXISTED,

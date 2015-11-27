@@ -1,4 +1,4 @@
-package com.sdust.im.bean;
+package com.v2cc.im.blah.bean;
 
 /**
  * 传输对象类型

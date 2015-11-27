@@ -7,15 +7,16 @@ import java.net.Socket;
 import java.net.UnknownHostException;
 import java.util.concurrent.TimeUnit;
 
-import com.sdust.im.bean.TranObject;
-import com.sdust.im.bean.TranObjectType;
-import com.sdust.im.bean.User;
+import com.v2cc.im.blah.bean.TranObject;
+import com.v2cc.im.blah.bean.TranObjectType;
+import com.v2cc.im.blah.bean.User;
+
 
 
 public class Client {
 	public static void main(String []args){
 		try {
-			Socket s =new Socket("127.0.0.1",8399);
+			Socket s =new Socket("192.168.3.12",63996);
 			ObjectOutputStream out = new ObjectOutputStream(s.getOutputStream());
 			TranObject tran = new TranObject();
 			User user = new User();

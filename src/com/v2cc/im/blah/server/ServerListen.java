@@ -1,10 +1,11 @@
-package com.sdust.im.server;
+package com.v2cc.im.blah.server;
 
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-import com.sdust.im.client.ClientActivity;
+import com.v2cc.im.blah.client.ClientActivity;
+
 
 /**
  * 客户端使用 Scoket(ip,port);参数是服务器的ip和端口号，因为没有指定

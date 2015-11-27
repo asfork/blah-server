@@ -1,4 +1,4 @@
-package com.sdust.im.DataBase;
+package com.v2cc.im.blah.DataBase;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -6,7 +6,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-import com.sdust.im.bean.User;
+import com.v2cc.im.blah.bean.User;
+
 
 public class FriendDao {
 	//防止初始化

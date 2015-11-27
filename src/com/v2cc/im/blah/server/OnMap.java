@@ -1,7 +1,8 @@
-package com.sdust.im.server;
+package com.v2cc.im.blah.server;
 import java.util.HashMap;
 
-import com.sdust.im.client.*;
+import com.v2cc.im.blah.client.ClientActivity;
+
 
 /**
  * 用于保存与所有在线用户的socket连接

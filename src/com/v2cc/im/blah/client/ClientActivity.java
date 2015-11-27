@@ -1,4 +1,4 @@
-package com.sdust.im.client;
+package com.v2cc.im.blah.client;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -11,15 +11,14 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
-import com.sdust.im.DataBase.DBPool;
-import com.sdust.im.DataBase.FriendDao;
-import com.sdust.im.DataBase.SaveMsgDao;
-import com.sdust.im.DataBase.UserDao;
-import com.sdust.im.bean.TranObject;
-import com.sdust.im.bean.TranObjectType;
-import com.sdust.im.bean.User;
-import com.sdust.im.global.Result;
-import com.sdust.im.server.ServerListen;
+import com.v2cc.im.blah.DataBase.FriendDao;
+import com.v2cc.im.blah.DataBase.SaveMsgDao;
+import com.v2cc.im.blah.DataBase.UserDao;
+import com.v2cc.im.blah.bean.TranObject;
+import com.v2cc.im.blah.bean.TranObjectType;
+import com.v2cc.im.blah.bean.User;
+import com.v2cc.im.blah.global.Result;
+import com.v2cc.im.blah.server.ServerListen;
 
 /**
  * @author Administrator 客户端线程

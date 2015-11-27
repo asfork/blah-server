@@ -1,14 +1,13 @@
-package com.sdust.im.client;
+package com.v2cc.im.blah.client;
 
 import java.io.EOFException;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.net.SocketAddress;
 
-import com.sdust.im.DataBase.UserDao;
-import com.sdust.im.bean.TranObject;
-import com.sdust.im.bean.TranObjectType;
-import com.sdust.im.bean.User;
+import com.v2cc.im.blah.bean.TranObject;
+import com.v2cc.im.blah.bean.TranObjectType;
+
 
 /**
  * 服务器对客户端的监听监听

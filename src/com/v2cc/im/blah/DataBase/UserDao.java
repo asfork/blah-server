@@ -1,4 +1,4 @@
-package com.sdust.im.DataBase;
+package com.v2cc.im.blah.DataBase;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -9,7 +9,8 @@ import java.util.List;
 
 import javax.print.attribute.standard.PresentationDirection;
 
-import com.sdust.im.bean.User;
+import com.v2cc.im.blah.bean.User;
+
 
 /**
  * 数据库操作
@@ -51,8 +52,8 @@ public class UserDao {
 	 */
 	public static int insertInfo(User user) {
 		String sql0 = "use blah";
-		String sql1 = "insert into user (account,name,photo,birthday,gender)"
-				+ " values(?,?,?,?,?)";
+		String sql1 = "insert into user (account,name,photo,gender)"
+				+ " values(?,?,?,?)";
 		Connection con = DBPool.getConnection();
 		try {
 			con.setAutoCommit(false);
@@ -67,6 +68,7 @@ public class UserDao {
 			ps.setString(1, user.getAccount());
 			ps.setString(2, user.getUserName());
 			ps.setBytes(3, user.getPhoto());
+			ps.setInt(4, user.getGender());
 			System.out.println(user.getPhoto().length);
 			ps.executeUpdate();
 			con.commit();
@@ -256,7 +258,4 @@ public class UserDao {
 		DBPool.close(con);
 		return list;
 	}
-
-
-
 }

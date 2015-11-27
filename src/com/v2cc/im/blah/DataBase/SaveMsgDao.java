@@ -1,4 +1,4 @@
-package com.sdust.im.DataBase;
+package com.v2cc.im.blah.DataBase;
 
 import java.sql.Connection;
 import java.sql.Date;
@@ -9,12 +9,13 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.v2cc.im.blah.bean.ChatEntity;
+import com.v2cc.im.blah.bean.TranObject;
+import com.v2cc.im.blah.bean.TranObjectType;
+import com.v2cc.im.blah.bean.User;
+import com.v2cc.im.blah.global.Result;
 
-import com.sdust.im.bean.ChatEntity;
-import com.sdust.im.bean.TranObject;
-import com.sdust.im.bean.TranObjectType;
-import com.sdust.im.bean.User;
-import com.sdust.im.global.*;;
+
 /**
  * 对保存信息表的操作
  * 

@@ -1,4 +1,4 @@
-package com.sdust.im.bean;
+package com.v2cc.im.blah.bean;
 
 import java.io.Serializable;
 

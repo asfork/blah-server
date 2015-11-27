@@ -1,10 +1,11 @@
-package com.sdust.im.client;
+package com.v2cc.im.blah.client;
 
 import java.io.ObjectOutputStream;
 import java.util.LinkedList;
 import java.util.concurrent.TimeUnit;
 
-import com.sdust.im.bean.TranObject;
+import com.v2cc.im.blah.bean.TranObject;
+
 
 public class ClientSendThread implements Runnable {
 	private ClientActivity mClient;
